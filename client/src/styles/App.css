@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root{
-  --primary-color: rgb(34, 168, 230);
+  --primary-color: #0DFF92;
   --dark-color:#222222;
   --light-color: #f0f0f0;
 }
@@ -71,7 +71,7 @@ body, html{
 
 .container .btn:hover{
     cursor: pointer;
-    background-color: #62ade0;
+    background-color: #f0f0f0;
     color: #202020;
 }
 
@@ -169,54 +169,4 @@ input[type=radio]:checked ~ .text-primary{
 
 .checked::before{
   background: var(--primary-color)
-}
-
-
-
-.container ol li{
-    font-size: 1.4em;
-    color: #cecece;
-}
-
-.start{
-    display: flex;
-    justify-content: center;
-    padding-top: 2em;
-}
-
-.start .btn{
-    padding: .2em 1.7em;
-    border: none;
-    border-radius: .1em;
-    font-size: 1.2em;
-    color: #202020;
-    text-decoration: none;
-    background-color: rgb(90, 236, 255);
-}
-
-#form{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 4em;
-    
-}
-
-#form input {
-  width: 50%;
-  padding: 10px;
-  margin-bottom: 15px;
-  box-sizing: border-box;
-  border: 1px solid #bdc3c7;
-  border-radius: 5px;
-  background-color: #cbd5df; /* Input background color */
-  color: #050e03; /* Input text color */
-}
-
-#form .userid{
-    padding: .7em 2em;
-    width: 50%;
-    border: none;
-    border-radius: 3px;
-    font-size: 1em;
 }
